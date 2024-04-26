@@ -1,3 +1,4 @@
+import minionLogo from "../asset/Minions.jpg";
 const Navbarr = () => {
   return (
     <div className="navbar bg-gray-800 mb-7 text-white">
@@ -12,10 +13,7 @@ const Navbarr = () => {
             className="btn btn-ghost btn-circle avatar"
           >
             <div className="w-10 rounded-full">
-              <img
-                alt="profile.img"
-                src="http://m.gettywallpapers.com/wp-content/uploads/2023/10/Minions-pfp.jpg"
-              />
+              <img className="" alt="profile.img" src={minionLogo} />
             </div>
           </div>
           <ul

@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding: 2rem;
+}
+
+.data-wrapper {
+  padding-right: 9rem;
+}
+
+.posting {
+  margin-top: 1em;
+}
+@media (max-width: 767px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 1px;
+  }
+  .data-wrapper {
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+}
+.load {
+  text-align: center;
+  font-size: xx-large;
+}
